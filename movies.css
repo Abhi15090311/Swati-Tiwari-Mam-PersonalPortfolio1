@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   body{
+    font-family: arial;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   height: 100vh;
+   }
+   .main{   
+    margin: 2%;
+   }
+   .movie{   
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+       background-color: aqua;
+        align-items: center;
+        display: flex;
+        object-fit: cover;
+        width: 410px;
+       }
+   .image img{
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     padding-top: 10px;
+    }
+     .container{
+        width: 9400.*px;
+        height: 430px;
+        background: yellow;
+        border-radius: 15px;
+        padding: 10px  10px 10px 10px;
+        box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+        overflow-y: scroll;
+
+     }
+     .container form{
+      width: 100%;
+      border: 20px black ;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+     }
+     .container form input{
+      border: none;
+      outline: none;
+      box-shadow: none;
+      width: 800px;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 8px 10px;
+      background-color: aqua;
+      background-image: url(https://cdn.sharechat.com/awesomehdwallpapersbackgrounds_106d01cc_1594722093067_cmprsd_40.jpg);
+      height: 50px;
+     }
+     .container form i{
+      padding-left: 10px;
+     }
+  .movie .m-details{
+  padding-left: 15px;
+  }
+  .search-bar input{
+     width: 100%;
+     max-width: 700px;
+     background: lightgreen;
+     display: flex;
+     align-items: center;
+     border-radius: 60px;
+     padding: 10px 20px;
+  }
+  .search-container{
+     width: 50px;
+     height: 60px;
+     background-color: aqua;
+     
+  }   
+    img {
+        border: 3px solid black;
+      }
+      src {
+        border: 3px solid black;
+      }
+    div#first{
+        height: 42px;
+        width: 235px;
+ background-color: aqua;
+ border: 2px solid black;
+ float: left;
+ padding: 2px 18px;
+ border-radius: 20px;
+    }
+    div#second{
+    height: 42px;
+    width: 325px;
+background-color: aqua;
+border: 2px solid black;
+float: left;
+padding: 2px 40px;
+border-radius: 20px ;
+    }
+   div#third{
+    height: 42px;
+    width: 300px;
+background-color: aqua;
+border: 2px solid black;
+float: left;
+padding: 2px 31px;
+   }
+   
+   
+   
+   div#fourth{
+      
+      border: 4px solid black;
+      border-radius: 10px;
+  }
+  div#fourth{
+   border: 4px solid black;
+   border-radius: 10px;
+}
+
+    div#ninth{
+        float: left;
+        border: 4px solid black;
+        border-radius: 10px;
+    }
+    div#tenth{
+        float: right;
+        border: 4px solid black;
+        border-radius: 10px;
+    }
+    
+    
+    button{
+      height: 40px;
+      width: 277px ;   
+        margin-bottom: 10px;
+        background-color: green;
+        border-radius: 5px;
+        padding:4px 40px;
+        border: 3px solid black;
+        width: fit-content;
+        color: #FDFEFE;
+        font-size: 16px;
+      }
+      button:hover{
+        background-color:lightsalmon;
+        color: white;
+        transition: .5s;
+        cursor: pointer;
+      }
+      .btn{
+          font-family: "Roboto",sans-serif;
+          font-size: 18px;
+          background:darkblue;
+          width: 100px;
+          padding: 5px;
+          text-align: center;
+          color: white;
+          cursor: pointer;
+          border-radius: 5px;
+          float: right;
+      }
+      .btn:hover{
+          background-color: black;
+          color: white;
+          transition: .5s;
+          cursor: pointer;
+      }
+      .button {
+        padding: 10px 30px;
+        font-size: 3px;
+      }
+      h1{
+         color: #8A33FF;
+         text-decoration: underline;
+
+      }
+      table{
+         border-color: #CCCCFF;
+      }
+
+      ////////////////////////////////
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .fas fa search{
+         width: 100%;
+         max-width: 700px;
+         background: lightgreen;
+         display: flex;
+         align-items: center;
+         border-radius: 60px;
+         padding: 10px 20px;
+      }
+      
+      input:placeholder-shown{
+         border: 4px blue;
+      }
+      
+      .box > i {
+         font-size: 20px;
+         color: greenyellow;
+      }
+      .box > input{
+         flex: 1;
+         height: 40px;
+      }
+      div.content{
+         height: 85px;
+         width: 190px;
+         border: 1px solid #000000;
+      }
+      margin-top: 1px;
+      margin-bottom: 1px;
+      margin-left: 1px;
+      margin-right: 1px;
+      background-color: brown;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding:10px;
+
+      ////////////////////////////////
+     
+    
